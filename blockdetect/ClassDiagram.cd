@@ -1,0 +1,1467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CvFGDetectorBase" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAIgAAAIBIAQAgAIAABAAAAAAAAAAAEAAFAAAAE=</HashCode>
+      <FileName>bgfg_estimation.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisList" Collapsed="true">
+    <Position X="18.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAAAIAAAAAgAgAEAAAAAAAAAAAAIACBAAAAA=</HashCode>
+      <FileName>blobtrackanalysis.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackFVGenN" Collapsed="true">
+    <Position X="27.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ARAAEggBAAABACgAAkAAAEAABIAgAQACAAEACRBCAAA=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackFVGenSS" Collapsed="true">
+    <Position X="30" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ARAAEggBAAABACgEAkAAAEAAACAgAQACAAEACRBCAAA=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefMat" Collapsed="true">
+    <Position X="67.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBIAgICAAAQAIgAAAAAACAEEAEAAEAIAEAQBAAAAgAA=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisHist" Collapsed="true">
+    <Position X="23.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>A5AAAEwkgACAkEAAQiAYAGAIAIAAABQAAQMACBABBAA=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisSVM" Collapsed="true">
+    <Position X="25.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AVgAAFwGAAEACEgAAgAAAmAIEiAAAAAAAhAACBAAAAA=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisIOR" Collapsed="true">
+    <Position X="14.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAEQAAAAAAEAAAgAAAEAgAAABAAAAAIAACBABAAA=</HashCode>
+      <FileName>blobtrackanalysisior.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefTrackRec" Collapsed="true">
+    <Position X="69.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAIAAQgAAAACAAAAACAAAAAAAAAAAABABEAAA=</HashCode>
+      <FileName>blobtrackanalysistrackdist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisTrackDist" Collapsed="true">
+    <Position X="16.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEwAAgAQAEAACiAAAlAAAAAAAAQAAQAACFAAAAQ=</HashCode>
+      <FileName>blobtrackanalysistrackdist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackGen1" Collapsed="true">
+    <Position X="41.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAEAAAAAgACAEAAAAgAAAAQAAAACBCAAAA=</HashCode>
+      <FileName>blobtrackgen1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackGenYML" Collapsed="true">
+    <Position X="43.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBAAAEAAABAgAAAEAACAAAAAAAAAAACBKAAAA=</HashCode>
+      <FileName>blobtrackgenyml.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerAuto1" Collapsed="true">
+    <Position X="39" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgACQEYAAAEGAEAAAgAIAAAApAAAASEAAQAAJhCEAQA=</HashCode>
+      <FileName>blobtrackingauto.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerCC" Collapsed="true">
+    <Position X="48" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUCAAAQ4ABgAAAAECoEABIECBACIAQAIAIEAKlAAAAE=</HashCode>
+      <FileName>blobtrackingcc.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerCCCR" Collapsed="true">
+    <Position X="50.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>A0EAAAQIAAAAAAEACgAIBAABAEAAAQAIAAAAKhAAAAE=</HashCode>
+      <FileName>blobtrackingccwithcr.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBGEstimPixHist" Collapsed="true">
+    <Position X="62.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAgAAAAAQBAAAAACAAAAAAEECAAAAAAAAAIAA=</HashCode>
+      <FileName>blobtrackinglist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerList" Collapsed="true">
+    <Position X="45.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AECAAAQABBAUIEAECoAABAAgBACAAAAAAIEgKlAAAQE=</HashCode>
+      <FileName>blobtrackinglist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefHist" Collapsed="true">
+    <Position X="66" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAAAAAAAAAgAAAAAAAAgAAAAAAAEAAIA=</HashCode>
+      <FileName>blobtrackingmsfg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerOneMSFG" Collapsed="true">
+    <Position X="52.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BhQgACAAAAkAgAEQCoAIECACAAAAIDAiBAAaABARAIk=</HashCode>
+      <FileName>blobtrackingmsfg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerOneMS" Collapsed="true">
+    <Position X="52.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>blobtrackingmsfg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerOneMSPF" Collapsed="true">
+    <Position X="52.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgACQAQCALCAAAQAEgAIAAAAAoAJEAAAAAGKABAAAAA=</HashCode>
+      <FileName>blobtrackingmsfg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerOneMSFGS" Collapsed="true">
+    <Position X="54.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BBIgACAADAkAgAEBAgAAECACAAQAICACAAAaABWBAIA=</HashCode>
+      <FileName>blobtrackingmsfgs.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPostProcKalman" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAAABAAAAAiABAEAAAAAAAAAAAAEIABAAAgA=</HashCode>
+      <FileName>blobtrackpostprockalman.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPredictKalman" Collapsed="true">
+    <Position X="12" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAgAAAAAAAAAAABAEAAQAAAAAAAAAEAARAAAgg=</HashCode>
+      <FileName>blobtrackpostprockalman.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPostProcTimeAver" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAgAAAEIAAAAAAAAAAAQIABAACAA=</HashCode>
+      <FileName>blobtrackpostproclinear.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPostProcList" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAARAAAAAAAAAAgAAAEAAAAAEAAAAAAAAKhQAAAA=</HashCode>
+      <FileName>blobtrackpostproclist.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobDetectorSimple" Collapsed="true">
+    <Position X="32.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAAAAAAACAAAAAAAAAAAAAAAAAwAAABIAAAA=</HashCode>
+      <FileName>enteringblobdetection.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobDetectorCC" Collapsed="true">
+    <Position X="34.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EICAAAAAAAAyACBABAAAACAAAAgAABABIoGAABAAgAg=</HashCode>
+      <FileName>enteringblobdetection.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobDetectorReal" Collapsed="true">
+    <Position X="36.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EQAAAABAAAAACAAAAAQAAAAAAAIAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>enteringblobdetectionreal.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvCalibFilter" Collapsed="true">
+    <Position X="69.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iFACgDCIAQEQgBAgmIMBAgMAhAAAAAABIAAKBgDACEA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvImage" Collapsed="true">
+    <Position X="57.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GEIAAAAABoCAQAQCYKAAAQACEAAgAQCGBQBwMEAAAEA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvMatrix" Collapsed="true">
+    <Position X="60.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEIAAAEEBICARgAAAKRAACAGAAChAAAABQBwMAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvCamShiftTracker" Collapsed="true">
+    <Position X="71.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>zQAgAAADCAAKoAAiCCAQAEAEBAgAAAJIAEAIAACAyAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvEM" Collapsed="true">
+    <Position X="5.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kEAQoAAQIAAAEAAAACAQBACQMEAAAAAKAQhgCEAACgI=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvVSModule" Collapsed="true">
+    <Position X="28.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEFCAAAgAAAAEIgAAEIAQABBDAYgBAQIAESABAS6AA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvFGDetector" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAIAAAgAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobSeq" Collapsed="true">
+    <Position X="64.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAQAAACAAAAASAAABAAAAAAABAAAAAAAKgFGAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackSeq" Collapsed="true">
+    <Position X="67.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAAAAAAAAIAAgAAIAAAAAQAABBEAQI=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobDetector" Collapsed="true">
+    <Position X="34.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvObjectDetector" Collapsed="true">
+    <Position X="62.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAAAIAAAAAAAAAAAgEAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvImageDrawer" Collapsed="true">
+    <Position X="59" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgAAAAAAAAAQCAAAEAAAAABAAAAAAEA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackGen" Collapsed="true">
+    <Position X="42.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAgACAAAAAAAAAAAAAAAACBAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTracker" Collapsed="true">
+    <Position X="48" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAQAABAQAAAECoECBAAABAAAAAAACIAAKlAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerOne" Collapsed="true">
+    <Position X="53.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAoAAAAAAAAABAAAgAAACABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPostProc" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAAAAgAKhAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPostProcOne" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackPredictor" Collapsed="true">
+    <Position X="12" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAg=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysis" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAEEAAAgAAAAAAAAAAAAAAAAAACBAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackFVGen" Collapsed="true">
+    <Position X="28.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAACAAAkAAAAAAAAAgAAACAAAACRACAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisOne" Collapsed="true">
+    <Position X="66" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackAnalysisHeight" Collapsed="true">
+    <Position X="21" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvBlobTrackerAuto" Collapsed="true">
+    <Position X="39" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAEAAAgAAAAAAhAAAAAAAAAAAIhAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvProb" Collapsed="true">
+    <Position X="64.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAIAAAAAAAAAAAABAAAgABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::PatchGenerator" Collapsed="true">
+    <Position X="59" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAQAAAEAEAAAAQAkAAAAACCAABAAEAAAUAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::LDetector" Collapsed="true">
+    <Position X="1.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAggAACAABAAAAEGAAQAAAAAAAACAAIQAAAAEAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::FernClassifier" Collapsed="true">
+    <Position X="71.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAgjBAIhgAAAEAECAAAAICgAAAIAAAAYCYCAADAKA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::RandomizedTree" Collapsed="true">
+    <Position X="62.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQiAAIAAAAAAlAGAAGgUECAASDAJCAaBAIgAAIgk=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::RTreeClassifier" Collapsed="true">
+    <Position X="64.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAQAAIAhAAAiBACAAgAAYAAACBAhIIQAAAACVAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::CvAffinePose" Collapsed="true">
+    <Position X="60.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAABgAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::OneWayDescriptor" Collapsed="true">
+    <Position X="57.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgACAqIMAEAAIwIWAQBAAoQAIAECgAAIACMACA8gFIA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::OneWayDescriptorBase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BkAAECAcAMERCAIiIAAwYIAiYAEARACgAjMhRAsiAgQ=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::OneWayDescriptorObject" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAQQAAAIAQCACCAQAEAAABAAABAAAAMAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::OneWayDescriptorMatcher" Collapsed="true">
+    <Position X="8.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IEFAAAAAIBACAAAAACEAAgACAAAAAAAAAQAAEAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::FernDescriptorMatcher" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IEQAAgAAIBACCAAAACAAAgACAAAAACAAAQAAEAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::CalonderDescriptorExtractor&lt;T&gt;" Collapsed="true">
+    <Position X="59" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIAAAAAAAAAAAACAAAAACAAAoAAAAAQAAAAAAQCA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::BruteForceMatcher&lt;Distance&gt;" Collapsed="true">
+    <Position X="57.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::PlanarObjectDetector" Collapsed="true">
+    <Position X="60.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAIAAAAgAAECAAAAEAAUAAABAAAWACAAAAAQA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CvGaussBGStatModel2Params" Collapsed="true">
+    <Position X="64.25" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAIJAEAAAAgAAAAAgAQAIIAIAAAFBAAAAABgAAA=</HashCode>
+      <FileName>bgfg_gaussmix.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvPBGMMGaussian" Collapsed="true">
+    <Position X="66" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>bgfg_gaussmix.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGaussBGStatModel2Data" Collapsed="true">
+    <Position X="62.5" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bgfg_gaussmix.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGaussBGModel2" Collapsed="true">
+    <Position X="59" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAiAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAA=</HashCode>
+      <FileName>bgfg_gaussmix.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefTrackAnalyser" Collapsed="true">
+    <Position X="71.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>blobtrackanalysis.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefBlobFVN" Collapsed="true">
+    <Position X="64.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAEAAAAAABAAAI=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefTrackFG" Collapsed="true">
+    <Position X="57.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAABAAAI=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefTrackSVM" Collapsed="true">
+    <Position X="62.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAABAAAEAAAAEABAAAI=</HashCode>
+      <FileName>blobtrackanalysishist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefTrackPoint" Collapsed="true">
+    <Position X="60.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABBhAAAAAAA=</HashCode>
+      <FileName>blobtrackanalysistrackdist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefMatch" Collapsed="true">
+    <Position X="57.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>blobtrackanalysistrackdist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefTrackForDist" Collapsed="true">
+    <Position X="59" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAABAAAI=</HashCode>
+      <FileName>blobtrackanalysistrackdist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefBlobTrack" Collapsed="true">
+    <Position X="66" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAQAABAAAA=</HashCode>
+      <FileName>blobtrackgen1.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBlobTrackAuto" Collapsed="true">
+    <Position X="62.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAA=</HashCode>
+      <FileName>blobtrackingauto.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefBlobTracker" Collapsed="true">
+    <Position X="67.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAIAAAAAAAAABBAAAAAAAAAAAAgAAAABAAAA=</HashCode>
+      <FileName>blobtrackingcc.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefBlobTrackerCR" Collapsed="true">
+    <Position X="69.5" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAgAAAAIAAAAAAAAABBAAAAAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>blobtrackingccwithcr.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvPixHistBin" Collapsed="true">
+    <Position X="69.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrackinglist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvPixHist" Collapsed="true">
+    <Position X="67.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrackinglist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefBlobTrackerL" Collapsed="true">
+    <Position X="71.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAIAAAAAAAAABBAAAAAAAAAIAAAAAAABAAAE=</HashCode>
+      <FileName>blobtrackinglist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefParticle" Collapsed="true">
+    <Position X="69.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAABIAAA=</HashCode>
+      <FileName>blobtrackingmsfg.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefBlobFilter" Collapsed="true">
+    <Position X="62.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>blobtrackpostproclist.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefModule_FGDetector" Collapsed="true">
+    <Position X="67.75" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>blobtrack_sample.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefModule_BlobDetector" Collapsed="true">
+    <Position X="59" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>blobtrack_sample.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefModule_BlobTracker" Collapsed="true">
+    <Position X="62.5" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>blobtrack_sample.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefModule_BlobTrackGen" Collapsed="true">
+    <Position X="64.25" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>blobtrack_sample.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefModule_BlobTrackPostProc" Collapsed="true">
+    <Position X="66" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>blobtrack_sample.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DefModule_BlobTrackAnalysis" Collapsed="true">
+    <Position X="60.75" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>blobtrack_sample.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_001a_1" Collapsed="true">
+    <Position X="16.5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enteringblobdetection.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvRandState" Collapsed="true">
+    <Position X="71.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_CvPixelPosition8u" Collapsed="true">
+    <Position X="9.5" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAQAAAAAAAAAIgAAAAAAJAAAEAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_CvPixelPosition8s" Collapsed="true">
+    <Position X="5.5" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAQAAAAAAAAAIgAAAAAAJAAAEAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_CvPixelPosition32f" Collapsed="true">
+    <Position X="13.5" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAQAAAAAAAAAIgAAAAAAJAAAEAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvSURFPoint" Collapsed="true">
+    <Position X="67.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAIAAAAAAAAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvSURFParams" Collapsed="true">
+    <Position X="66" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAACAIAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvMSERParams" Collapsed="true">
+    <Position X="64.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARBAAAAAAEAAAEAAAAAAAAAAgAAAAAABAAAAEAIAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvStarKeypoint" Collapsed="true">
+    <Position X="59" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvStarDetectorParams" Collapsed="true">
+    <Position X="57.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAEAAAAAAAAAAAAAAAQCAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvImgObsInfo" Collapsed="true">
+    <Position X="12.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQIAAAAAAAAAAAAAAAAAEEAAAAABAIAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvEHMMState" Collapsed="true">
+    <Position X="67.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAQAAAAAAAAAAAAAAAAAEgAAAAAAgAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvEHMM" Collapsed="true">
+    <Position X="66" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGraphWeightedVtx" Collapsed="true">
+    <Position X="71.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGraphWeightedEdge" Collapsed="true">
+    <Position X="69.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvCliqueFinder" Collapsed="true">
+    <Position X="71.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAIAAACAAgLAAACAEAAIAQgIAEABAQgAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvStereoLineCoeff" Collapsed="true">
+    <Position X="64.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABQAAAAAAAAABAAAAAgAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvCamera" Collapsed="true">
+    <Position X="69.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAgAAICIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvStereoCamera" Collapsed="true">
+    <Position X="60.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgEAAAAAAAAAEARAAAAEAAAAAUAAAAACAAI=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvContourOrientation" Collapsed="true">
+    <Position X="59" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAABAAQAI=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvContourTree" Collapsed="true">
+    <Position X="60.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvFace" Collapsed="true">
+    <Position X="1.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Cv3dTracker2dTrackedObject" Collapsed="true">
+    <Position X="59" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Cv3dTrackerTrackedObject" Collapsed="true">
+    <Position X="64.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAgA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Cv3dTrackerCameraInfo" Collapsed="true">
+    <Position X="60.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAQ=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Cv3dTrackerCameraIntrinsics" Collapsed="true">
+    <Position X="62.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvVoronoiSite2D" Collapsed="true">
+    <Position X="60.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvVoronoiEdge2D" Collapsed="true">
+    <Position X="57.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvVoronoiNode2D" Collapsed="true">
+    <Position X="59" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvVoronoiDiagram2D" Collapsed="true">
+    <Position X="71.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvLCMEdge" Collapsed="true">
+    <Position X="57.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQBAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvLCMNode" Collapsed="true">
+    <Position X="59" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvMatrix3" Collapsed="true">
+    <Position X="62.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvConDensation" Collapsed="true">
+    <Position X="57.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAATAQAAAAAQAAAAAAEAgAAAAAAgEAghAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvEMParams" Collapsed="true">
+    <Position X="9.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAAAAAAgAAAABAAAEAAAIACQQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="lsh_hash" Collapsed="true">
+    <Position X="64.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvLSHOperations" Collapsed="true">
+    <Position X="60.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAggAACAAAAAAAgAAAACEAAAACAAAAABAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvStereoGCState" Collapsed="true">
+    <Position X="62.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAEACEQIIAgDgBAAAIIAAAAAACAAIAAgAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBGStatModel" Collapsed="true">
+    <Position X="59" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvFGDStatModelParams" Collapsed="true">
+    <Position X="71.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAgAAAAAAAQAAQAIAAAAAIABAAQAEAEAAI=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBGPixelCStatTable" Collapsed="true">
+    <Position X="71.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBGPixelCCStatTable" Collapsed="true">
+    <Position X="69.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBGPixelStat" Collapsed="true">
+    <Position X="57.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAQAAwAAAAAAAAAAAAAgAAABAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvFGDStatModel" Collapsed="true">
+    <Position X="69.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAAQgAAAAAAAAAAAQAAgAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGaussBGStatModelParams" Collapsed="true">
+    <Position X="66" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEEBCBAAAUAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGaussBGValues" Collapsed="true">
+    <Position X="67.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAIAIAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGaussBGPoint" Collapsed="true">
+    <Position X="60.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvGaussBGModel" Collapsed="true">
+    <Position X="57.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEiAAAAAAAABAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBGCodeBookElem" Collapsed="true">
+    <Position X="66" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAAAAQAAAEAAAAAAAAAEAAAAAAAAgAIAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBGCodeBookModel" Collapsed="true">
+    <Position X="67.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAABQQAAAAJAAAAAAAAAAAAAAAAQCAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvDefParam" Collapsed="true">
+    <Position X="62.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAAAAAAQABAAIAACAAAAAAAAAAogAiA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBlob" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAhgAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBlobTrack" Collapsed="true">
+    <Position X="60.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvDetectedBlob" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvDrawShape" Collapsed="true">
+    <Position X="64.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAABAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBlobTrackerParamMS" Collapsed="true">
+    <Position X="67.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAUEAAAAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBlobTrackerParamLH" Collapsed="true">
+    <Position X="66" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvBlobTrackerAutoParam1" Collapsed="true">
+    <Position X="64.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAIAAAAAQAAEAAAAAAAAAAAAgAAIAAAABAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CvTracksTimePos" Collapsed="true">
+    <Position X="69.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAIAEAAAAAIAAADAAAAAAAAAAAgAE=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cv::RTreeNode" Collapsed="true">
+    <Position X="66" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAgAAEAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="cv::BaseKeypoint" Collapsed="true">
+    <Position X="57.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="DefHistType" Collapsed="true">
+    <Position X="67.75" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrackingmsfg.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DefSeq" Collapsed="true">
+    <Position X="16.5" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>enteringblobdetection.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ushort" Collapsed="true">
+    <Position X="69.5" Y="16.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\opencv2.4.9\opencv\build\include\opencv2\core\types_c.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvMatType" Collapsed="true">
+    <Position X="60.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvDisMaskType" Collapsed="true">
+    <Position X="59" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvMatArray" Collapsed="true">
+    <Position X="71.25" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvThreshType" Collapsed="true">
+    <Position X="60.75" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvAdaptiveThreshMethod" Collapsed="true">
+    <Position X="57.25" Y="14" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvCompareMethod" Collapsed="true">
+    <Position X="67.75" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvFontFace" Collapsed="true">
+    <Position X="66" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvPolyApproxMethod" Collapsed="true">
+    <Position X="67.75" Y="15.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvContoursMatchMethod" Collapsed="true">
+    <Position X="71.25" Y="14" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvContourTreesMatchMethod" Collapsed="true">
+    <Position X="57.25" Y="14.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvCoeffType" Collapsed="true">
+    <Position X="66" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvRodriguesType" Collapsed="true">
+    <Position X="71.25" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvElementShape" Collapsed="true">
+    <Position X="62.5" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvMorphOp" Collapsed="true">
+    <Position X="62.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvTemplMatchMethod" Collapsed="true">
+    <Position X="57.25" Y="16.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvPoint2D64d" Collapsed="true">
+    <Position X="64.25" Y="15.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvPoint3D64d" Collapsed="true">
+    <Position X="66" Y="15.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvBox2D32f" Collapsed="true">
+    <Position X="60.75" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvDisType" Collapsed="true">
+    <Position X="60.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvChainApproxMethod" Collapsed="true">
+    <Position X="64.25" Y="14" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvContourRetrievalMode" Collapsed="true">
+    <Position X="69.5" Y="14" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvPixelPosition8u" Collapsed="true">
+    <Position X="9.5" Y="16.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvPixelPosition8s" Collapsed="true">
+    <Position X="5.5" Y="16.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvPixelPosition32f" Collapsed="true">
+    <Position X="13.5" Y="13.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvVect32f" Collapsed="true">
+    <Position X="64.25" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvMatr32f" Collapsed="true">
+    <Position X="57.25" Y="15.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvVect64d" Collapsed="true">
+    <Position X="66" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvMatr64d" Collapsed="true">
+    <Position X="59" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvCallback" Collapsed="true">
+    <Position X="62.5" Y="14" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvInput" Collapsed="true">
+    <Position X="69.5" Y="14.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Cv1DObsInfo" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvGLCM" Collapsed="true">
+    <Position X="67.75" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvFaceTracker" Collapsed="true">
+    <Position X="64.25" Y="14.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvFaceData" Collapsed="true">
+    <Position X="1.5" Y="14.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvBool" Collapsed="true">
+    <Position X="59" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::EMParams" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::ExpectationMaximization" Collapsed="true">
+    <Position X="5.5" Y="9.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::YAPE" Collapsed="true">
+    <Position X="1.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::OneWayDescriptorMatch" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::FernDescriptorMatch" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvReleaseBGStatModel" Collapsed="true">
+    <Position X="69.5" Y="15.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvUpdateBGStatModel" Collapsed="true">
+    <Position X="62.5" Y="16.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CvTestSeq" Collapsed="true">
+    <Position X="59" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>blobtrack.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_00a7_1" Collapsed="true">
+    <Position X="57.25" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABACAAAAACAAQAAAQAIAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00a7_2" Collapsed="true">
+    <Position X="59" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00a7_3" Collapsed="true">
+    <Position X="60.75" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAACAAAAAAAAEAAAAAAACAAAAAAAAAIAIAAIE=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00a7_4" Collapsed="true">
+    <Position X="62.5" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>compat.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CvGraphWeightType" Collapsed="true">
+    <Position X="69.5" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQiAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_00a8_3" Collapsed="true">
+    <Position X="64.25" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CV_FACE_ELEMENTS" Collapsed="true">
+    <Position X="66" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CvLeeParameters" Collapsed="true">
+    <Position X="71.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAgAAAAACAAAAAAAgAAAAIAAAAAAAAAAAAJA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CvCalibEtalonType" Collapsed="true">
+    <Position X="67.75" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAgAAAAAA=</HashCode>
+      <FileName>legacy.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

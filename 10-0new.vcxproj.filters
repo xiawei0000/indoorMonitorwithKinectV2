@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\package_bgs">
+      <UniqueIdentifier>{2a6aa839-d67b-4368-bf56-eeea608fd8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_bgs\av">
+      <UniqueIdentifier>{eef933bf-e8c3-4813-8e11-ce3d225deb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_bgs\lb">
+      <UniqueIdentifier>{b910007e-34f3-4a51-8ed2-4cf5c9e861f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\package_analysis">
+      <UniqueIdentifier>{e6ffc606-bc2b-4269-928c-70e1dd2e8526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blockdetect">
+      <UniqueIdentifier>{721733a4-3d68-4f88-8f43-5a4a245d45db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blockdetect\colorTracker">
+      <UniqueIdentifier>{f1515036-bab1-41be-8c4f-b2537bcc1164}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyKinect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseImageTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package_analysis\ForegroundMaskAnalysis.cpp">
+      <Filter>头文件\package_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\GMG.cpp">
+      <Filter>头文件\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\MixtureOfGaussianV1BGS.cpp">
+      <Filter>头文件\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\MixtureOfGaussianV2BGS.cpp">
+      <Filter>头文件\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\av\TBackground.cpp">
+      <Filter>头文件\package_bgs\av</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\av\TBackgroundVuMeter.cpp">
+      <Filter>头文件\package_bgs\av</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\av\VuMeter.cpp">
+      <Filter>头文件\package_bgs\av</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\lb\BGModel.cpp">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\lb\BGModelGauss.cpp">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\lb\BGModelMog.cpp">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\lb\LBMixtureOfGaussians.cpp">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="package_bgs\lb\LBSimpleGaussian.cpp">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeBookBackGround.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackgenyml.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackingauto.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackingcc.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackingccwithcr.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackinglist.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackingmsfg.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackingmsfgs.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackpostprockalman.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackpostproclinear.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackpostproclist.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\camshift.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\enteringblobdetection.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\enteringblobdetectionreal.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\bgfg_acmmm2003.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\bgfg_codebook.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\bgfg_common.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\bgfg_estimation.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\bgfg_gaussmix.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrack.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrack_sample.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackanalysis.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackanalysishist.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackanalysisior.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackanalysistrackdist.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackgen1.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\mainblob.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSegment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\colorTracker\source.cpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\colorTracker\static.cpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\colorTracker\color_tracker.cpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\colorTracker\color_tracker_parameters.cpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="blockdetect\blobtrackingcolorTraker.cpp">
+      <Filter>blockdetect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyKinect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseImageTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="package_analysis\ForegroundMaskAnalysis.h">
+      <Filter>头文件\package_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\GMG.h">
+      <Filter>头文件\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\MixtureOfGaussianV1BGS.h">
+      <Filter>头文件\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\MixtureOfGaussianV2BGS.h">
+      <Filter>头文件\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\av\TBackground.h">
+      <Filter>头文件\package_bgs\av</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\av\TBackgroundVuMeter.h">
+      <Filter>头文件\package_bgs\av</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\av\VuMeter.h">
+      <Filter>头文件\package_bgs\av</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\lb\BGModel.h">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\lb\BGModelGauss.h">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\lb\BGModelMog.h">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\lb\LBMixtureOfGaussians.h">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\lb\LBSimpleGaussian.h">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="package_bgs\lb\Types.h">
+      <Filter>头文件\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeBookBackGround.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IBGS.h">
+      <Filter>头文件\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\compat.hpp">
+      <Filter>blockdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\legacy.hpp">
+      <Filter>blockdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\precomp.hpp">
+      <Filter>blockdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\_matrix.h">
+      <Filter>blockdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\blobtrack.hpp">
+      <Filter>blockdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\colorTracker\color_tracker_parameters.hpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\colorTracker\vot.hpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="blockdetect\colorTracker\color_tracker.hpp">
+      <Filter>blockdetect\colorTracker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="新建文本文档.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blockdetect\ClassDiagram.cd">
+      <Filter>blockdetect</Filter>
+    </None>
+  </ItemGroup>
+</Project>

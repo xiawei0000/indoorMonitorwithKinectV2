@@ -1,0 +1,64 @@
+﻿生成启动时间为 5/10/2015 9:58:16 PM。
+     1>项目“D:\360\yourpaper\运动目标检测跟踪\WorkSpace\v10-0new\10-0new.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\360\yourpaper\运动目标检测跟踪\WorkSpace\V6 rukoudian" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D NOMINMAX /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS MyKinect.cpp
+         MyKinect.cpp
+     1>d:\360\yourpaper\运动目标检测跟踪\workspace\v10-0new\mytime.h(3): warning C4005: “NOMINMAX”: 宏重定义
+                 命令行参数: 参见前面的“NOMINMAX”定义
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360\yourpaper\运动目标检测跟踪\WorkSpace\v10-0new\Debug\fuliye.exe" /INCREMENTAL /NOLOGO Kinect20.VisualGestureBuilder.lib Kinect20.Face.lib Kinect20.Fusion.lib Kinect20.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\360\yourpaper\运动目标检测跟踪\WorkSpace\v10-0new\Debug\fuliye.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\360\yourpaper\运动目标检测跟踪\WorkSpace\v10-0new\Debug\fuliye.lib" /MACHINE:X86 Debug\BackGroundProcess.obj
+         Debug\BaseImageTools.obj
+         Debug\bgfg_acmmm2003.obj
+         Debug\bgfg_codebook.obj
+         Debug\bgfg_common.obj
+         Debug\bgfg_estimation.obj
+         Debug\bgfg_gaussmix.obj
+         Debug\blobtrack.obj
+         Debug\blobtrackanalysis.obj
+         Debug\blobtrackanalysishist.obj
+         Debug\blobtrackanalysisior.obj
+         Debug\blobtrackanalysistrackdist.obj
+         Debug\blobtrackgen1.obj
+         Debug\blobtrackgenyml.obj
+         Debug\blobtrackingauto.obj
+         Debug\blobtrackingcc.obj
+         Debug\blobtrackingccwithcr.obj
+         Debug\blobtrackingcolorTraker.obj
+         Debug\blobtrackinglist.obj
+         Debug\blobtrackingmsfg.obj
+         Debug\blobtrackingmsfgs.obj
+         Debug\blobtrackpostprockalman.obj
+         Debug\blobtrackpostproclinear.obj
+         Debug\blobtrackpostproclist.obj
+         Debug\blobtrack_sample.obj
+         Debug\camshift.obj
+         Debug\color_tracker.obj
+         Debug\color_tracker_parameters.obj
+         Debug\source.obj
+         Debug\static.obj
+         Debug\enteringblobdetection.obj
+         Debug\enteringblobdetectionreal.obj
+         Debug\mainblob.obj
+         Debug\CodeBookBackGround.obj
+         Debug\ImageSegment.obj
+         Debug\main.obj
+         Debug\MyKinect.obj
+         Debug\MyTime.obj
+         Debug\ForegroundMaskAnalysis.obj
+         Debug\TBackground.obj
+         Debug\TBackgroundVuMeter.obj
+         Debug\VuMeter.obj
+         Debug\GMG.obj
+         Debug\BGModel.obj
+         Debug\BGModelGauss.obj
+         Debug\BGModelMog.obj
+         Debug\LBMixtureOfGaussians.obj
+         Debug\LBSimpleGaussian.obj
+         Debug\MixtureOfGaussianV1BGS.obj
+         Debug\MixtureOfGaussianV2BGS.obj
+         10-0new.vcxproj -> D:\360\yourpaper\运动目标检测跟踪\WorkSpace\v10-0new\Debug\fuliye.exe
+     1>已完成生成项目“D:\360\yourpaper\运动目标检测跟踪\WorkSpace\v10-0new\10-0new.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.67

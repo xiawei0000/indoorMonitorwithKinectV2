@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CA0186DC-8AB4-4B4B-A986-47C10D627538}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>opencv_MuitilKinect</RootNamespace>
+    <ProjectName>fuliye</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="opencv249_Kinect2.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="opencv249_Kinect2.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\360\yourpaper\运动目标检测跟踪\WorkSpace\V6 rukoudian;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BackGroundProcess.cpp" />
+    <ClCompile Include="BaseImageTools.cpp" />
+    <ClCompile Include="blockdetect\bgfg_acmmm2003.cpp" />
+    <ClCompile Include="blockdetect\bgfg_codebook.cpp" />
+    <ClCompile Include="blockdetect\bgfg_common.cpp" />
+    <ClCompile Include="blockdetect\bgfg_estimation.cpp" />
+    <ClCompile Include="blockdetect\bgfg_gaussmix.cpp" />
+    <ClCompile Include="blockdetect\blobtrack.cpp" />
+    <ClCompile Include="blockdetect\blobtrackanalysis.cpp" />
+    <ClCompile Include="blockdetect\blobtrackanalysishist.cpp" />
+    <ClCompile Include="blockdetect\blobtrackanalysisior.cpp" />
+    <ClCompile Include="blockdetect\blobtrackanalysistrackdist.cpp" />
+    <ClCompile Include="blockdetect\blobtrackgen1.cpp" />
+    <ClCompile Include="blockdetect\blobtrackgenyml.cpp" />
+    <ClCompile Include="blockdetect\blobtrackingauto.cpp" />
+    <ClCompile Include="blockdetect\blobtrackingcc.cpp" />
+    <ClCompile Include="blockdetect\blobtrackingccwithcr.cpp" />
+    <ClCompile Include="blockdetect\blobtrackingcolorTraker.cpp" />
+    <ClCompile Include="blockdetect\blobtrackinglist.cpp" />
+    <ClCompile Include="blockdetect\blobtrackingmsfg.cpp" />
+    <ClCompile Include="blockdetect\blobtrackingmsfgs.cpp" />
+    <ClCompile Include="blockdetect\blobtrackpostprockalman.cpp" />
+    <ClCompile Include="blockdetect\blobtrackpostproclinear.cpp" />
+    <ClCompile Include="blockdetect\blobtrackpostproclist.cpp" />
+    <ClCompile Include="blockdetect\blobtrack_sample.cpp" />
+    <ClCompile Include="blockdetect\camshift.cpp" />
+    <ClCompile Include="blockdetect\colorTracker\color_tracker.cpp" />
+    <ClCompile Include="blockdetect\colorTracker\color_tracker_parameters.cpp" />
+    <ClCompile Include="blockdetect\colorTracker\source.cpp" />
+    <ClCompile Include="blockdetect\colorTracker\static.cpp" />
+    <ClCompile Include="blockdetect\enteringblobdetection.cpp" />
+    <ClCompile Include="blockdetect\enteringblobdetectionreal.cpp" />
+    <ClCompile Include="blockdetect\mainblob.cpp" />
+    <ClCompile Include="CodeBookBackGround.cpp" />
+    <ClCompile Include="ImageSegment.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyKinect.cpp" />
+    <ClCompile Include="MyTime.cpp" />
+    <ClCompile Include="package_analysis\ForegroundMaskAnalysis.cpp" />
+    <ClCompile Include="package_bgs\av\TBackground.cpp" />
+    <ClCompile Include="package_bgs\av\TBackgroundVuMeter.cpp" />
+    <ClCompile Include="package_bgs\av\VuMeter.cpp" />
+    <ClCompile Include="package_bgs\GMG.cpp" />
+    <ClCompile Include="package_bgs\lb\BGModel.cpp" />
+    <ClCompile Include="package_bgs\lb\BGModelGauss.cpp" />
+    <ClCompile Include="package_bgs\lb\BGModelMog.cpp" />
+    <ClCompile Include="package_bgs\lb\LBMixtureOfGaussians.cpp" />
+    <ClCompile Include="package_bgs\lb\LBSimpleGaussian.cpp" />
+    <ClCompile Include="package_bgs\MixtureOfGaussianV1BGS.cpp" />
+    <ClCompile Include="package_bgs\MixtureOfGaussianV2BGS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackGroundProcess.h" />
+    <ClInclude Include="BaseImageTools.h" />
+    <ClInclude Include="blockdetect\blobtrack.hpp" />
+    <ClInclude Include="blockdetect\colorTracker\color_tracker.hpp" />
+    <ClInclude Include="blockdetect\colorTracker\color_tracker_parameters.hpp" />
+    <ClInclude Include="blockdetect\colorTracker\vot.hpp" />
+    <ClInclude Include="blockdetect\compat.hpp" />
+    <ClInclude Include="blockdetect\legacy.hpp" />
+    <ClInclude Include="blockdetect\precomp.hpp" />
+    <ClInclude Include="blockdetect\_matrix.h" />
+    <ClInclude Include="CodeBookBackGround.h" />
+    <ClInclude Include="IBGS.h" />
+    <ClInclude Include="ImageSegment.h" />
+    <ClInclude Include="MyKinect.h" />
+    <ClInclude Include="MyTime.h" />
+    <ClInclude Include="package_analysis\ForegroundMaskAnalysis.h" />
+    <ClInclude Include="package_bgs\av\TBackground.h" />
+    <ClInclude Include="package_bgs\av\TBackgroundVuMeter.h" />
+    <ClInclude Include="package_bgs\av\VuMeter.h" />
+    <ClInclude Include="package_bgs\GMG.h" />
+    <ClInclude Include="package_bgs\lb\BGModel.h" />
+    <ClInclude Include="package_bgs\lb\BGModelGauss.h" />
+    <ClInclude Include="package_bgs\lb\BGModelMog.h" />
+    <ClInclude Include="package_bgs\lb\LBMixtureOfGaussians.h" />
+    <ClInclude Include="package_bgs\lb\LBSimpleGaussian.h" />
+    <ClInclude Include="package_bgs\lb\Types.h" />
+    <ClInclude Include="package_bgs\MixtureOfGaussianV1BGS.h" />
+    <ClInclude Include="package_bgs\MixtureOfGaussianV2BGS.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="新建文本文档.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blockdetect\ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

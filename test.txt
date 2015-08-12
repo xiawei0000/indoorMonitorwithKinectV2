@@ -1,0 +1,264 @@
+- Fri May 08 23:18:55 2015
+Frame: 50 ALL_TIME - 18.503905
+- Fri May 08 23:19:38 2015
+Frame: 50 ALL_TIME - 62.018606
+- Fri May 08 23:20:48 2015
+Frame: 50 ALL_TIME - 24.841582
+- Fri May 08 23:21:06 2015
+Frame: 50 ALL_TIME - 43.097347
+- Sat May 09 11:01:51 2015
+Frame: 50 ALL_TIME - 11.621679
+- Sat May 09 11:02:01 2015
+Frame: 100 ALL_TIME - 9.772814
+ForFrame Frame: 100 BlobTracker 19.918971 on 2.060000 blobs
+ForBlob  Frame: 100 BlobTracker - 9.669403
+ForFrame Frame: 100 PostProcessing 0.018090 on 2.060000 blobs
+ForBlob  Frame: 100 PostProcessing - 0.008782
+ForFrame Frame: 100 BlobDeleter 0.011147 on 0.480000 blobs
+ForBlob  Frame: 100 BlobDeleter - 0.023224
+ForFrame Frame: 100 BlobTrackerUpdate 0.001910 on 2.060000 blobs
+ForBlob  Frame: 100 BlobTrackerUpdate - 0.000927
+- Sat May 09 11:02:02 2015
+Frame: 50 ALL_TIME - 23.857677
+- Sat May 09 11:02:14 2015
+Frame: 150 ALL_TIME - 12.525286
+- Sat May 09 11:02:26 2015
+Frame: 200 ALL_TIME - 12.085435
+ForFrame Frame: 200 BlobTracker 57.690763 on 3.790000 blobs
+ForBlob  Frame: 200 BlobTracker - 15.221837
+ForFrame Frame: 200 PostProcessing 0.030412 on 3.790000 blobs
+ForBlob  Frame: 200 PostProcessing - 0.008024
+ForFrame Frame: 200 BlobDeleter 0.031741 on 0.560000 blobs
+ForBlob  Frame: 200 BlobDeleter - 0.056680
+ForFrame Frame: 200 BlobTrackerUpdate 0.002822 on 3.790000 blobs
+ForBlob  Frame: 200 BlobTrackerUpdate - 0.000744
+- Sat May 09 11:02:31 2015
+Frame: 100 ALL_TIME - 28.766064
+ForFrame Frame: 100 BlobDetector 165.533308 on -1.000000 blobs
+- Sat May 09 11:02:36 2015
+Frame: 250 ALL_TIME - 10.207933
+- Sat May 09 11:02:54 2015
+Frame: 300 ALL_TIME - 18.242741
+ForFrame Frame: 300 BlobTracker 40.079550 on 6.850000 blobs
+ForBlob  Frame: 300 BlobTracker - 5.851029
+ForFrame Frame: 300 PostProcessing 0.020638 on 6.850000 blobs
+ForBlob  Frame: 300 PostProcessing - 0.003013
+ForFrame Frame: 300 BlobDeleter 0.020963 on 0.470000 blobs
+ForBlob  Frame: 300 BlobDeleter - 0.044602
+ForFrame Frame: 300 BlobTrackerUpdate 0.003251 on 6.850000 blobs
+ForBlob  Frame: 300 BlobTrackerUpdate - 0.000475
+- Sat May 09 17:01:55 2015
+Frame: 50 ALL_TIME - 9.735542
+- Sat May 09 17:02:02 2015
+Frame: 50 ALL_TIME - 17.726581
+- Sat May 09 18:11:37 2015
+Frame: 50 ALL_TIME - 6.137083
+- Sat May 09 18:11:42 2015
+Frame: 50 ALL_TIME - 12.303126
+- Sat May 09 18:11:45 2015
+Frame: 100 ALL_TIME - 7.922839
+ForFrame Frame: 100 BlobTracker 15.057140 on 0.000000 blobs
+ForFrame Frame: 100 PostProcessing 0.002338 on 0.000000 blobs
+ForFrame Frame: 100 BlobDeleter 0.001099 on 0.000000 blobs
+ForFrame Frame: 100 BlobTrackerUpdate 0.001252 on 0.000000 blobs
+- Sat May 09 19:37:49 2015
+Frame: 50 ALL_TIME - 28.008045
+- Sat May 09 20:56:48 2015
+Frame: 50 ALL_TIME - 33.203187
+- Sat May 09 21:00:01 2015
+Frame: 50 ALL_TIME - 38.190439
+- Sat May 09 21:11:44 2015
+Frame: 50 ALL_TIME - 108.485713
+- Sat May 09 21:42:03 2015
+Frame: 50 ALL_TIME - 27.365776
+- Sat May 09 21:45:50 2015
+Frame: 50 ALL_TIME - 42.977744
+- Sat May 09 22:23:53 2015
+Frame: 50 ALL_TIME - 28.848276
+- Sat May 09 22:32:38 2015
+Frame: 50 ALL_TIME - 12.124362
+- Sat May 09 22:32:41 2015
+Frame: 50 ALL_TIME - 16.098746
+- Sat May 09 22:32:44 2015
+Frame: 100 ALL_TIME - 6.301763
+ForFrame Frame: 100 BlobTracker 0.693303 on 1.120000 blobs
+ForBlob  Frame: 100 BlobTracker - 0.619021
+ForFrame Frame: 100 PostProcessing 0.021573 on 1.120000 blobs
+ForBlob  Frame: 100 PostProcessing - 0.019262
+ForFrame Frame: 100 BlobDeleter 0.030197 on 1.110000 blobs
+ForBlob  Frame: 100 BlobDeleter - 0.027205
+ForFrame Frame: 100 BlobTrackerUpdate 0.001489 on 1.120000 blobs
+ForBlob  Frame: 100 BlobTrackerUpdate - 0.001329
+- Sat May 09 22:32:53 2015
+Frame: 150 ALL_TIME - 8.745418
+- Sat May 09 22:32:53 2015
+Frame: 100 ALL_TIME - 12.229464
+ForFrame Frame: 100 BlobDetector 0.926369 on -1.000000 blobs
+- Sat May 09 22:33:02 2015
+Frame: 200 ALL_TIME - 8.566745
+ForFrame Frame: 200 BlobTracker 0.455946 on 0.580000 blobs
+ForBlob  Frame: 200 BlobTracker - 0.786113
+ForFrame Frame: 200 PostProcessing 0.011875 on 0.580000 blobs
+ForBlob  Frame: 200 PostProcessing - 0.020474
+ForFrame Frame: 200 BlobDeleter 0.015286 on 0.560000 blobs
+ForBlob  Frame: 200 BlobDeleter - 0.027297
+ForFrame Frame: 200 BlobTrackerUpdate 0.002958 on 0.580000 blobs
+ForBlob  Frame: 200 BlobTrackerUpdate - 0.005100
+- Sat May 09 22:33:07 2015
+Frame: 150 ALL_TIME - 13.347347
+- Sat May 09 22:33:08 2015
+Frame: 250 ALL_TIME - 6.183734
+- Sun May 10 22:00:51 2015
+Frame: 50 ALL_TIME - 4.186333
+- Sun May 10 22:00:52 2015
+Frame: 50 ALL_TIME - 5.821712
+- Sun May 10 22:00:55 2015
+Frame: 100 ALL_TIME - 4.387508
+ForFrame Frame: 100 BlobTracker 0.091804 on 0.500000 blobs
+ForBlob  Frame: 100 BlobTracker - 0.183609
+ForFrame Frame: 100 PostProcessing 0.009275 on 0.500000 blobs
+ForBlob  Frame: 100 PostProcessing - 0.018550
+ForFrame Frame: 100 BlobDeleter 0.004353 on 0.500000 blobs
+ForBlob  Frame: 100 BlobDeleter - 0.008705
+ForFrame Frame: 100 BlobTrackerUpdate 0.001302 on 0.500000 blobs
+ForBlob  Frame: 100 BlobTrackerUpdate - 0.002604
+- Sun May 10 22:00:57 2015
+Frame: 100 ALL_TIME - 5.643300
+ForFrame Frame: 100 BlobDetector 0.278414 on -1.000000 blobs
+- Sun May 10 22:00:59 2015
+Frame: 150 ALL_TIME - 3.684523
+- Sun May 10 22:01:03 2015
+Frame: 200 ALL_TIME - 3.982337
+ForFrame Frame: 200 BlobTracker 0.133606 on 0.920000 blobs
+ForBlob  Frame: 200 BlobTracker - 0.145224
+ForFrame Frame: 200 PostProcessing 0.015920 on 0.920000 blobs
+ForBlob  Frame: 200 PostProcessing - 0.017304
+ForFrame Frame: 200 BlobDeleter 0.008736 on 0.890000 blobs
+ForBlob  Frame: 200 BlobDeleter - 0.009815
+ForFrame Frame: 200 BlobTrackerUpdate 0.001260 on 0.920000 blobs
+ForBlob  Frame: 200 BlobTrackerUpdate - 0.001369
+- Sun May 10 22:01:14 2015
+Frame: 150 ALL_TIME - 17.125516
+- Sun May 10 22:01:20 2015
+Frame: 250 ALL_TIME - 16.954291
+- Sun May 10 22:01:25 2015
+Frame: 200 ALL_TIME - 10.633482
+ForFrame Frame: 200 BlobDetector 0.122891 on -1.000000 blobs
+- Sun May 10 22:01:25 2015
+Frame: 300 ALL_TIME - 5.846857
+ForFrame Frame: 300 BlobTracker 0.095133 on 1.570000 blobs
+ForBlob  Frame: 300 BlobTracker - 0.060594
+ForFrame Frame: 300 PostProcessing 0.023812 on 1.570000 blobs
+ForBlob  Frame: 300 PostProcessing - 0.015167
+ForFrame Frame: 300 BlobDeleter 0.006799 on 1.500000 blobs
+ForBlob  Frame: 300 BlobDeleter - 0.004533
+ForFrame Frame: 300 BlobTrackerUpdate 0.001259 on 1.570000 blobs
+ForBlob  Frame: 300 BlobTrackerUpdate - 0.000802
+- Sun May 10 22:02:47 2015
+Frame: 50 ALL_TIME - 5.924021
+- Sun May 10 22:02:50 2015
+Frame: 50 ALL_TIME - 9.496907
+- Sun May 10 22:02:52 2015
+Frame: 100 ALL_TIME - 5.677923
+ForFrame Frame: 100 BlobTracker 22.478853 on 2.240000 blobs
+ForBlob  Frame: 100 BlobTracker - 10.035202
+ForFrame Frame: 100 PostProcessing 0.054130 on 2.240000 blobs
+ForBlob  Frame: 100 PostProcessing - 0.024165
+ForFrame Frame: 100 BlobDeleter 0.015938 on 2.240000 blobs
+ForBlob  Frame: 100 BlobDeleter - 0.007115
+ForFrame Frame: 100 BlobTrackerUpdate 0.002236 on 2.240000 blobs
+ForBlob  Frame: 100 BlobTrackerUpdate - 0.000998
+- Sun May 10 22:02:58 2015
+Frame: 150 ALL_TIME - 5.970683
+- Sun May 10 22:03:14 2015
+Frame: 100 ALL_TIME - 24.719018
+ForFrame Frame: 100 BlobDetector 1.897079 on -1.000000 blobs
+- Sun May 10 22:03:16 2015
+Frame: 200 ALL_TIME - 17.619503
+ForFrame Frame: 200 BlobTracker 20.755992 on 7.370000 blobs
+ForBlob  Frame: 200 BlobTracker - 2.816281
+ForFrame Frame: 200 PostProcessing 0.040877 on 7.370000 blobs
+ForBlob  Frame: 200 PostProcessing - 0.005546
+ForFrame Frame: 200 BlobDeleter 0.011629 on 1.760000 blobs
+ForBlob  Frame: 200 BlobDeleter - 0.006607
+ForFrame Frame: 200 BlobTrackerUpdate 0.003026 on 7.370000 blobs
+ForBlob  Frame: 200 BlobTrackerUpdate - 0.000411
+- Sun May 10 22:03:32 2015
+Frame: 250 ALL_TIME - 15.814341
+- Sun May 10 22:03:37 2015
+Frame: 150 ALL_TIME - 22.884669
+- Sun May 10 22:04:05 2015
+Frame: 300 ALL_TIME - 32.885367
+ForFrame Frame: 300 BlobTracker 31.758325 on 17.170000 blobs
+ForBlob  Frame: 300 BlobTracker - 1.849640
+ForFrame Frame: 300 PostProcessing 0.062807 on 17.170000 blobs
+ForBlob  Frame: 300 PostProcessing - 0.003658
+ForFrame Frame: 300 BlobDeleter 0.010021 on 2.300000 blobs
+ForBlob  Frame: 300 BlobDeleter - 0.004357
+ForFrame Frame: 300 BlobTrackerUpdate 0.005230 on 17.170000 blobs
+ForBlob  Frame: 300 BlobTrackerUpdate - 0.000305
+- Sun May 10 22:05:32 2015
+Frame: 50 ALL_TIME - 7.770759
+- Sun May 10 22:05:34 2015
+Frame: 50 ALL_TIME - 10.437432
+- Sun May 10 22:05:37 2015
+Frame: 100 ALL_TIME - 5.167583
+ForFrame Frame: 100 BlobTracker 14.029988 on 2.970000 blobs
+ForBlob  Frame: 100 BlobTracker - 4.723902
+ForFrame Frame: 100 PostProcessing 0.047067 on 2.970000 blobs
+ForBlob  Frame: 100 PostProcessing - 0.015847
+ForFrame Frame: 100 BlobDeleter 0.014874 on 1.530000 blobs
+ForBlob  Frame: 100 BlobDeleter - 0.009722
+ForFrame Frame: 100 BlobTrackerUpdate 0.002334 on 2.970000 blobs
+ForBlob  Frame: 100 BlobTrackerUpdate - 0.000786
+- Sun May 10 22:05:43 2015
+Frame: 150 ALL_TIME - 5.596084
+- Sun May 10 22:05:43 2015
+Frame: 100 ALL_TIME - 8.938334
+ForFrame Frame: 100 BlobDetector 0.981349 on -1.000000 blobs
+- Sun May 10 22:05:49 2015
+Frame: 200 ALL_TIME - 5.686666
+ForFrame Frame: 200 BlobTracker 14.748556 on 4.990000 blobs
+ForBlob  Frame: 200 BlobTracker - 2.955622
+ForFrame Frame: 200 PostProcessing 0.042445 on 4.990000 blobs
+ForBlob  Frame: 200 PostProcessing - 0.008506
+ForFrame Frame: 200 BlobDeleter 0.011560 on 1.620000 blobs
+ForBlob  Frame: 200 BlobDeleter - 0.007136
+ForFrame Frame: 200 BlobTrackerUpdate 0.002717 on 4.990000 blobs
+ForBlob  Frame: 200 BlobTrackerUpdate - 0.000544
+- Sun May 10 22:05:51 2015
+Frame: 150 ALL_TIME - 7.594467
+- Sun May 10 22:05:53 2015
+Frame: 250 ALL_TIME - 4.481296
+- Sun May 10 22:05:58 2015
+Frame: 300 ALL_TIME - 5.168156
+ForFrame Frame: 300 BlobTracker 9.837852 on 7.510000 blobs
+ForBlob  Frame: 300 BlobTracker - 1.309967
+ForFrame Frame: 300 PostProcessing 0.040574 on 7.510000 blobs
+ForBlob  Frame: 300 PostProcessing - 0.005403
+ForFrame Frame: 300 BlobDeleter 0.012038 on 0.870000 blobs
+ForBlob  Frame: 300 BlobDeleter - 0.013837
+ForFrame Frame: 300 BlobTrackerUpdate 0.004552 on 7.510000 blobs
+ForBlob  Frame: 300 BlobTrackerUpdate - 0.000606
+- Sun May 10 22:06:00 2015
+Frame: 200 ALL_TIME - 9.093222
+ForFrame Frame: 200 BlobDetector 0.512708 on -1.000000 blobs
+- Sun May 10 22:06:03 2015
+Frame: 350 ALL_TIME - 5.057521
+- Sun May 10 22:06:10 2015
+Frame: 250 ALL_TIME - 10.028635
+- Sun May 10 22:06:11 2015
+Frame: 400 ALL_TIME - 7.406071
+ForFrame Frame: 400 BlobTracker 12.273247 on 10.700000 blobs
+ForBlob  Frame: 400 BlobTracker - 1.147032
+ForFrame Frame: 400 PostProcessing 0.043893 on 10.700000 blobs
+ForBlob  Frame: 400 PostProcessing - 0.004102
+ForFrame Frame: 400 BlobDeleter 0.010601 on 1.230000 blobs
+ForBlob  Frame: 400 BlobDeleter - 0.008619
+ForFrame Frame: 400 BlobTrackerUpdate 0.005034 on 10.700000 blobs
+ForBlob  Frame: 400 BlobTrackerUpdate - 0.000470
+- Sun May 10 22:06:20 2015
+Frame: 450 ALL_TIME - 9.399790
+- Sun May 10 22:06:26 2015
+Frame: 300 ALL_TIME - 15.672194
+ForFrame Frame: 300 BlobDetector 1.272523 on -1.000000 blobs
